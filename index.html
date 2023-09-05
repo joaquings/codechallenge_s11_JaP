@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Challenge</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <div id='wrapper'>
+        <h4>Code Challenge</h4>
+        <div class="formBlock">
+            <label for="birthdate">Nombre</label><br>
+            <input type="text" name="name" placeholder="Nombre" id="name"><br>
+        </div>
+        <div class="formBlock">
+            <label for="birthdate">Apellido</label><br>
+            <input type="text" name="lastname" placeholder="Apellido" id="lastname"><br>
+        </div>
+        <div class="formBlock">
+            <label for="birthdate">Fecha de nacimiento</label><br>
+            <input type="date" name= "birthdate" placeholde="Fecha de nacimiento" id="birthdate"/>
+        </div>
+        <div class="formBlock">
+            <button type="submit" id="enviar">Enviar</button>
+        </div>
+        <hr>
+        <div class="formBlock">
+            <div id="showJSON">
+                <span style="font-weight: bold;">Respuesta desde el endpoint</span>
+
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </div>
+</body>
+</html>
+ 
